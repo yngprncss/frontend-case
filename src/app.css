@@ -4,11 +4,53 @@
 }
 
 .infoContainer {
-  display: flex;
+  display: block; 
   flex-direction: column;
-  margin-top: 100px;
   width: 400px;
-  text-align: center;
   font-weight: 100;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.backgroundFrame {
+  border: 20px solid #EBCD5E ; 
+  background-image: url('./recourses/backround_card.jpeg');
+  border-radius: 15px ;
+  padding-top: 25px;
+  width: 400px;
+}
+
+.headerFrame {
+  margin-left: 25px;
+  line-height: 0px;
+}
+
+.imageFrame {
+  padding-top: 20px;
+  border: 7px solid #EBCD5E; 
+  margin-left: 25px;
+  margin-right: 25px;
+  background-image: url('./recourses/background_mewtwo.jpeg') ; 
+  box-shadow: 4px 4px 10px black;
+  text-align: center;
+}
+
+.descriptionFrame {
+  margin: 10px  25px  0px  25px ; 
+  text-align: center;
+  box-shadow: 4px 4px 10px black;
+  background-color: #EBCD5E;
+}
+
+.moveFrame h2 ,
+.moveFrame p {
+    display: inline;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.cardInfoFrame {
+  font-size: 10px;
+  text-align: center;
+  padding-top: 20px;
 }

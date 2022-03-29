@@ -48,3 +48,12 @@ export interface Pokemon {
   types: TypeOfPokemon[];
   weight: number;
 }
+
+interface FlavorText {
+  flavor_text : string ; 
+}
+
+export interface MoveDesc {
+  name : string ; 
+  flavor_text_entries : FlavorText[] 
+}
